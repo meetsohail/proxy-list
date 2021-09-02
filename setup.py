@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="free-proxy-list",
-    version="0.0.1",
+    version="0.0.3",
     author="Sohail Ahmed",
     author_email="meetsohail360@gmail.com",
     description="This package is to get free proxy ips and port number for scraping and for testing on proxy.",
