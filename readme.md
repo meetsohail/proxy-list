@@ -8,28 +8,34 @@ This library is for testing purpose while scraping.
 
 
 ## Usage
-
+```python
     from proxy_list import ProxyList
     
     proxy_list = ProxyList()
+```
 
 ### Get all Proxies?
 
 #### Request	 
 Call `get_all_proxies()` to all the proxies in list form with its ports.
-
-    proxy_list.get_all_proxies()
+```python
+proxy_list.get_all_proxies()
+```
 #### Response     
 The response would be in form of multiple list of IP and Port.
 
+```python
     [('0.0.0.0','8080'),('0.0.0.0','9090'), and so on]
+```
 
 ### Get Random Proxy?
 
 #### Request	 
 Call `get_random_proxy()` to get a single proxy to use directly in code.
 
-    proxy_list.get_random_proxy()
+```python
+proxy_list.get_random_proxy()
+```
     
 #### Response     
 The response would be in form of `dictionary` of IP and Port.
