@@ -12,7 +12,7 @@ class ProxyList:
         table = self.scrape_list()
         ip = (list(zip(map(lambda td: td.text, table.findAll(
             "td")[::8]), map(lambda td: td.text, table.findAll("td")[1::8]))))
-        return {'https:': (':'.join(choice(ip)))}
+        return {'https': (':'.join(choice(ip)))}
 
     def get_all_proxies(self):
         table = self.scrape_list()

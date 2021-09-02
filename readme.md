@@ -40,7 +40,7 @@ proxy_list.get_random_proxy()
 #### Response     
 The response would be in form of `dictionary` of IP and Port.
 
-    {'https:': '0:0:0::8080'}
+    {'https': '0:0:0::8080'}
 
 ## How to use in requests?
 Official documentation of requests. [Requests](https://docs.python-requests.org/en/master/)
