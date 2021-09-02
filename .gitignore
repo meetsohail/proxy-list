@@ -2,3 +2,5 @@
 free_proxy_list.*
 proxy_list/__pycache__
 tests/__pycache__
+build/
+dist/

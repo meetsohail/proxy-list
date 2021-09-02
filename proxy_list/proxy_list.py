@@ -25,8 +25,3 @@ class ProxyList:
         soup = BeautifulSoup(r.text, 'lxml')
         table = soup.findAll('table')[0]
         return table
-
-
-if __name__ == '__main__':
-    proxy_list = ProxyList()
-    print(proxy_list.get_all_proxies())
