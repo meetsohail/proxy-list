@@ -1,0 +1,4 @@
+.pytest_cache
+free_proxy_list.*
+proxy_list/__pycache__
+tests/__pycache__

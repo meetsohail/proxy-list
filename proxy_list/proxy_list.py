@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from random import choice
 
 
-class ProxyList():
+class ProxyList:
 
     def __init__(self, url='https://free-proxy-list.net'):
         self.url = url
