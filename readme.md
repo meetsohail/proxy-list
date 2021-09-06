@@ -1,10 +1,8 @@
 # Free Proxy List
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
-[![PyPI status](https://img.shields.io/pypi/status/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
-[![Latest release](https://badgen.net/github/release/Naereen/Strapdown.js)](https://github.com/Naereen/Strapdown.js/releases)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
-
+![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/meetsohail/proxy-list?color=green&style=for-the-badge)
 
 This library is for testing purpose while scraping.
 
