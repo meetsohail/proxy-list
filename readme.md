@@ -8,29 +8,29 @@
 This library is for testing purpose while scraping.
 
 ## Installation
-
-    pip install free-proxy-list
-
+pip install free-proxy-list
 
 ## Usage
 ```python
-    from proxy_list import ProxyList
+from proxy_list import ProxyList
     
-    proxy_list = ProxyList()
+proxy_list = ProxyList()
 ```
 
 ### Get all Proxies?
 
 #### Request	 
-Call `get_all_proxies()` to all the proxies in list form with its ports.
+Call `get_all_proxies()` to get all the proxies in list form with their ports.
+
 ```python
 proxy_list.get_all_proxies()
 ```
+
 #### Response     
 The response would be in form of multiple list of IP and Port.
 
 ```python
-    [('0.0.0.0','8080'),('0.0.0.0','9090'), and so on]
+[('0.0.0.0','8080'),('0.0.0.0','9090'), and so on]
 ```
 
 ### Get Random Proxy?
@@ -41,11 +41,27 @@ Call `get_random_proxy()` to get a single proxy to use directly in code.
 ```python
 proxy_list.get_random_proxy()
 ```
-    
+
 #### Response     
 The response would be in form of `dictionary` of IP and Port.
 
-    {'https': '0:0:0.0:8080'}
+```python
+{'https': '0:0:0.0:8080'}
+```
+
+### Get HTTPs Proxies?
+
+### Request
+
+Call `get_https_proxies()` to get all the HTTPs proxies in list form with their ports.
+
+### Response
+The response would be in form of multiple list of IP and Port.
+
+```python
+[('0.0.0.0','8080'),('0.0.0.0','9090'), and so on]
+```
+
 
 ## How to use in requests?
 Official documentation of requests. [Requests](https://docs.python-requests.org/en/master/)
