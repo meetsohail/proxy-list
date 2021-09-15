@@ -51,11 +51,11 @@ The response would be in form of `dictionary` of IP and Port.
 
 ### Get HTTPs Proxies?
 
-### Request
+#### Request
 
 Call `get_https_proxies()` to get all the HTTPs proxies in list form with their ports.
 
-### Response
+#### Response
 The response would be in form of multiple list of IP and Port.
 
 ```python
